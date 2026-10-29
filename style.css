@@ -88,7 +88,7 @@ h1 span,
     overflow: hidden;
     background:
         linear-gradient(90deg, #10110f 5%, #10110fe8 43%, #10110f48 100%),
-        url("image/H1.jpg")
+        url("Image/H1.jpg")
         center 55% / cover no-repeat;
 }
 
@@ -348,7 +348,7 @@ h3 {
     justify-content: center;
     background:
         linear-gradient(90deg, #10110f 10%, #10110fbd 100%),
-        url('image/H3.jpg')
+        url('Image/H3.jpg')
         center / cover no-repeat;
 }
 
