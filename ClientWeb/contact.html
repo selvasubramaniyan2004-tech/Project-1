@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact our Singapore-based international beverage trading team.">
+    <title>Contact Us |ALCHO.NOBAL </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">ALCHO.NOBAL<span></span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h1>Let's Start a<br><span>Conversation.</span></h1>
+            <p>
+                Have a business enquiry? Connect with our team to
+                discuss international trading opportunities.
+            </p>
+        </section>
+
+        <section class="contact-layout section-padding">
+
+            <div class="contact-info">
+                <p class="eyebrow">CONTACT INFORMATION</p>
+                <h2>Let's connect<br>across <span>markets.</span></h2>
+
+                <p class="contact-copy">
+                    Reach out to discuss your business requirements,
+                    potential partnerships or general enquiries.
+                </p>
+
+                <div class="contact-detail">
+                    <span>LOCATION</span>
+                    <p>Singapore</p>
+                </div>
+
+                <div class="contact-detail">
+                    <span>EMAIL</span>
+                    <p>Replace with company email</p>
+                </div>
+
+                <div class="contact-detail">
+                    <span>PHONE</span>
+                    <p>Replace with company phone number</p>
+                </div>
+
+                <a class="btn btn-gold whatsapp-button"
+                   href="https://wa.me/REPLACE_WITH_NUMBER"
+                   target="_blank" rel="noopener noreferrer">
+                    Contact on WhatsApp ↗
+                </a>
+            </div>
+
+            <div class="contact-form-wrap">
+                <p class="eyebrow">BUSINESS ENQUIRY</p>
+                <h2>Send us a message.</h2>
+
+                <form id="contactForm">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name"
+                        placeholder="Your full name" required>
+
+                    <label for="email">Business Email</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="you@company.com" required>
+
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company"
+                        placeholder="Your company">
+
+                    <label for="message">Your Enquiry</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Tell us how we can help..."
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-gold form-button">
+                        Send Enquiry ↗
+                    </button>
+
+                    <p id="formStatus" class="form-status" role="status"></p>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">ALCHO.NOBAL<span>.</span></a>
+        <p>© <span id="year"></span> ALCHO.NOBAL . All rights reserved.</p>
+        <p>Singapore · International Trading</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
